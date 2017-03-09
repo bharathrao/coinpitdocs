@@ -3,3 +3,7 @@
 table.docutils div.line-block {
     margin-left: 0;
 }
+
+.rst-pro {
+    display: none;
+}
