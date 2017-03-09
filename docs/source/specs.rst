@@ -3,27 +3,43 @@ Contract Specification
 
 ALL
 ---
-
 .. csv-table::
 
     "Trading Hours", "24x7x365"
-    "Listed Contracts", "Continuous"
     "Settlement Method", "Financial"
-    "Termination of trading", "None, Automatic rollover"
     "Settlement Procedure", "P&L Equivalent BTC credited/debited to account"
     "Position Limits", "None at present. May be instituted as needed"
     "Price Limit or circuit", "None at present. May be instituted as needed"
 
 
-BTC1
-----
-
+BTCUSD
+------
 .. csv-table::
 
     "Contract Unit", "BTC/USD"
+    "Listed Contracts", "Weekly, Fortnightly"
+    "Minimum price fluctuation", "0.1 USD"
+    "Quote currency", "USD"
+    "Type", "Inverse"
+    "Settlement Price at Expiry", "30 min TWAP of Coinpit Index of BTC/USD"
+    "Margin & PNL currency", "BTC"
+    "Value of 1 contract", "500 USD"
+    "P&L of 1 contract", "500 × (1/BuyPrice - 1/SellPrice) BTC"
+    "Max Initial Leverage", "100x"
+    "Spot Anchor Price", "| Spot anchor price is median of
+    | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
+    | real-time spot price"
+
+BTC1
+----
+.. csv-table::
+
+    "Contract Unit", "BTC/USD"
+    "Listed Contracts", "Continuous"
     "Minimum price fluctuation", "0.1 USD = 0.0001 BTC"
     "Quote currency", "USD"
     "Type", "Quanto"
+    "Termination of trading", "None, Automatic rollover"
     "Margin & PNL currency", "BTC"
     "BTC value of 1 contract", "Price × 0.001 BTC"
     "USD value of 1 contract", "Price² × 0.001 BTC"
@@ -32,5 +48,6 @@ BTC1
     | Example: 422 × 0.001 / (0.0001 × 20) = 211
     | approx. Price × 10/(stop_ticks+10)"
     "Spot Anchor Price", "| Spot anchor price is median of
-    | OKCoin, BitFinex and Bitstamp BTC/USD
+    | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
     | real-time spot price"
+
