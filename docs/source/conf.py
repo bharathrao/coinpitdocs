@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'coinpit'
+project = u'coinpit.io'
 copyright = u'2017, coinpit'
 author = u'coinpit'
 
