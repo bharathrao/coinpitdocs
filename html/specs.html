@@ -1,0 +1,368 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contract Specification &mdash; coinpit.io 0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+    <link rel="canonical" href="https://coinpit.io/docs/latest/specs.html"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/coinpit.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="coinpit.io 0.0.0 documentation" href="index.html"/>
+        <link rel="next" title="Exchange Behaviour" href="behaviour.html"/>
+        <link rel="prev" title="Welcome to coinpit’s documentation!" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> coinpit.io
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contract Specification</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#all">ALL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#btcusd">BTCUSD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#btc1">BTC1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="behaviour.html">Exchange Behaviour</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">coinpit.io</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Contract Specification</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/specs.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="contract-specification">
+<h1>Contract Specification<a class="headerlink" href="#contract-specification" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="all">
+<h2>ALL<a class="headerlink" href="#all" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Trading Hours</td>
+<td>24x7x365</td>
+</tr>
+<tr class="row-even"><td>Settlement Method</td>
+<td>Financial</td>
+</tr>
+<tr class="row-odd"><td>Settlement Procedure</td>
+<td>P&amp;L Equivalent BTC credited/debited to account</td>
+</tr>
+<tr class="row-even"><td>Position Limits</td>
+<td>None at present. May be instituted as needed</td>
+</tr>
+<tr class="row-odd"><td>Price Limit or circuit</td>
+<td>None at present. May be instituted as needed</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="btcusd">
+<h2>BTCUSD<a class="headerlink" href="#btcusd" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Contract Unit</td>
+<td>BTC/USD</td>
+</tr>
+<tr class="row-even"><td>Listed Contracts</td>
+<td>Weekly, Fortnightly</td>
+</tr>
+<tr class="row-odd"><td>Minimum price fluctuation</td>
+<td>0.1 USD</td>
+</tr>
+<tr class="row-even"><td>Quote currency</td>
+<td>USD</td>
+</tr>
+<tr class="row-odd"><td>Type</td>
+<td>Inverse</td>
+</tr>
+<tr class="row-even"><td>Settlement Price at Expiry</td>
+<td>30 min TWAP of Coinpit Index of BTC/USD</td>
+</tr>
+<tr class="row-odd"><td>Margin &amp; PNL currency</td>
+<td>BTC</td>
+</tr>
+<tr class="row-even"><td>Value of 1 contract</td>
+<td>500 USD</td>
+</tr>
+<tr class="row-odd"><td>P&amp;L of 1 contract</td>
+<td>500 × (1/BuyPrice - 1/SellPrice) BTC</td>
+</tr>
+<tr class="row-even"><td>Max Initial Leverage</td>
+<td>100x</td>
+</tr>
+<tr class="row-odd"><td>Spot Anchor Price</td>
+<td><div class="first last line-block">
+<div class="line">Spot anchor price is median of</div>
+<div class="line">OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD</div>
+<div class="line">real-time spot price</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="btc1">
+<h2>BTC1<a class="headerlink" href="#btc1" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Contract Unit</td>
+<td>BTC/USD</td>
+</tr>
+<tr class="row-even"><td>Listed Contracts</td>
+<td>Continuous</td>
+</tr>
+<tr class="row-odd"><td>Minimum price fluctuation</td>
+<td>0.1 USD = 0.0001 BTC</td>
+</tr>
+<tr class="row-even"><td>Quote currency</td>
+<td>USD</td>
+</tr>
+<tr class="row-odd"><td>Type</td>
+<td>Quanto</td>
+</tr>
+<tr class="row-even"><td>Termination of trading</td>
+<td>None, Automatic rollover</td>
+</tr>
+<tr class="row-odd"><td>Margin &amp; PNL currency</td>
+<td>BTC</td>
+</tr>
+<tr class="row-even"><td>BTC value of 1 contract</td>
+<td>Price × 0.001 BTC</td>
+</tr>
+<tr class="row-odd"><td>USD value of 1 contract</td>
+<td>Price² × 0.001 BTC</td>
+</tr>
+<tr class="row-even"><td>BTC P&amp;L of 1 contract</td>
+<td>(SellPrice - BuyPrice) × 0.001 BTC</td>
+</tr>
+<tr class="row-odd"><td>Approx Leverage</td>
+<td><div class="first last line-block">
+<div class="line">Price × 0.001 BTC / Margin</div>
+<div class="line">Example: 422 × 0.001 / (0.0001 × 20) = 211</div>
+<div class="line">approx. Price × 10/(stop_ticks+10)</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td>Spot Anchor Price</td>
+<td><div class="first last line-block">
+<div class="line">Spot anchor price is median of</div>
+<div class="line">OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD</div>
+<div class="line">real-time spot price</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="behaviour.html" class="btn btn-neutral float-right" title="Exchange Behaviour" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to coinpit’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, coinpit.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/coinpit.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
