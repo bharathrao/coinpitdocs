@@ -17,7 +17,7 @@ Options:
                            commit's message.
 "
 cd docs
-make clean html
+make html
 
 parse_args() {
   # Set args from a local environment file.
