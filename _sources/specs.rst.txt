@@ -24,15 +24,15 @@ BTCUSD
     "Expiry Time", "Friday 17:15 UTC"
     "Settlement Price at Expiry", "10 min TWAP of Coinpit Index of BTC/USD"
     "Margin & PNL currency", "BTC"
-    "Value of 1 contract", "500 USD"
-    "P&L of 1 contract", "500 × (1/BuyPrice - 1/SellPrice) BTC"
+    "Value of 1 contract", "100 USD"
+    "P&L of 1 contract", "100 × (1/BuyPrice - 1/SellPrice) BTC"
     "Max Initial Leverage", "50x"
     "Spot Anchor Price", "| Spot anchor price is median of
     | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
     | real-time spot price"
 
-BTC1
-----
+BTC1 (Retired)
+--------------
 .. csv-table::
 
     "Contract Unit", "BTC/USD"
@@ -51,4 +51,3 @@ BTC1
     "Spot Anchor Price", "| Spot anchor price is median of
     | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
     | real-time spot price"
-
