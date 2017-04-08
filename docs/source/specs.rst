@@ -30,6 +30,7 @@ BTCUSD
     "Spot Anchor Price", "| Spot anchor price is median of
     | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
     | real-time spot price"
+    "Trading Bands", "Trading enabled within ±1% of spot anchor price"
 
 BTC1 (Retired)
 --------------
