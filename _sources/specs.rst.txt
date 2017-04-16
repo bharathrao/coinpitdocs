@@ -21,6 +21,7 @@ BTCUSD
     "Minimum price fluctuation", "0.1 USD"
     "Quote currency", "USD"
     "Type", "Inverse"
+    "Fees", "0% Maker, 0.05% Taker"
     "Expiry Time", "Friday 17:15 UTC"
     "Settlement Price at Expiry", "10 min TWAP of Coinpit Index of BTC/USD"
     "Margin & PNL currency", "BTC"
