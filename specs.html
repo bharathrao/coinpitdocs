@@ -88,7 +88,6 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Contract Specification</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#all">ALL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#btcusd">BTCUSD</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#btc1-retired">BTC1 (Retired)</a></li>
 </ul>
 </li>
 </ul>
@@ -224,7 +223,7 @@
 <td>100 × (1/BuyPrice - 1/SellPrice) BTC</td>
 </tr>
 <tr class="row-even"><td>Max Initial Leverage</td>
-<td>50x</td>
+<td>100x</td>
 </tr>
 <tr class="row-odd"><td>Spot Anchor Price</td>
 <td><div class="first last line-block">
@@ -236,63 +235,6 @@
 </tr>
 <tr class="row-even"><td>Trading Bands</td>
 <td>Trading enabled within ±1% of spot anchor price</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="section" id="btc1-retired">
-<h2>BTC1 (Retired)<a class="headerlink" href="#btc1-retired" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="docutils">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>Contract Unit</td>
-<td>BTC/USD</td>
-</tr>
-<tr class="row-even"><td>Listed Contracts</td>
-<td>Continuous</td>
-</tr>
-<tr class="row-odd"><td>Minimum price fluctuation</td>
-<td>0.1 USD = 0.0001 BTC</td>
-</tr>
-<tr class="row-even"><td>Quote currency</td>
-<td>USD</td>
-</tr>
-<tr class="row-odd"><td>Type</td>
-<td>Quanto</td>
-</tr>
-<tr class="row-even"><td>Termination of trading</td>
-<td>March 31 2017</td>
-</tr>
-<tr class="row-odd"><td>Margin &amp; PNL currency</td>
-<td>BTC</td>
-</tr>
-<tr class="row-even"><td>BTC value of 1 contract</td>
-<td>Price × 0.001 BTC</td>
-</tr>
-<tr class="row-odd"><td>USD value of 1 contract</td>
-<td>Price² × 0.001 BTC</td>
-</tr>
-<tr class="row-even"><td>BTC P&amp;L of 1 contract</td>
-<td>(SellPrice - BuyPrice) × 0.001 BTC</td>
-</tr>
-<tr class="row-odd"><td>Approx Leverage</td>
-<td><div class="first last line-block">
-<div class="line">Price × 0.001 BTC / Margin</div>
-<div class="line">Example: 422 × 0.001 / (0.0001 × 20) = 211</div>
-<div class="line">approx. Price × 10/(stop_ticks+10)</div>
-</div>
-</td>
-</tr>
-<tr class="row-even"><td>Spot Anchor Price</td>
-<td><div class="first last line-block">
-<div class="line">Spot anchor price is median of</div>
-<div class="line">OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD</div>
-<div class="line">real-time spot price</div>
-</div>
-</td>
 </tr>
 </tbody>
 </table>
