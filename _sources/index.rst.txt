@@ -5,7 +5,6 @@
 
 Coinpit documentation
 =====================
-
    `Coinpit API documentation`_
 
 .. _Coinpit API documentation: https://coinpit.io/api
@@ -14,4 +13,5 @@ Coinpit documentation
    :maxdepth: 2
 
    specs.rst
+   definitions.rst
 ..   behavior.rst

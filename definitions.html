@@ -8,14 +8,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Coinpit documentation &mdash; coinpit.io 0.0.0 documentation</title>
+  <title>Definitions &mdash; coinpit.io 0.0.0 documentation</title>
   
 
   
   
   
   
-    <link rel="canonical" href="https://coinpit.io/docs/latest/index.html"/>
+    <link rel="canonical" href="https://coinpit.io/docs/latest/definitions.html"/>
   
 
   
@@ -37,8 +37,8 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="coinpit.io 0.0.0 documentation" href="#"/>
-        <link rel="next" title="Contract Specification" href="specs.html"/> 
+    <link rel="top" title="coinpit.io 0.0.0 documentation" href="index.html"/>
+        <link rel="prev" title="Contract Specification" href="specs.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -57,7 +57,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> coinpit.io
+            <a href="index.html" class="icon icon-home"> coinpit.io
           
 
           
@@ -84,13 +84,13 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="specs.html">Contract Specification</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="specs.html#all">ALL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="specs.html#btcusd">BTCUSD</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Definitions</a></li>
 </ul>
 
             
@@ -105,7 +105,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">coinpit.io</a>
+          <a href="index.html">coinpit.io</a>
         
       </nav>
 
@@ -133,15 +133,15 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#">Docs</a> &raquo;</li>
+      <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Coinpit documentation</li>
+      <li>Definitions</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/definitions.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -154,20 +154,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="coinpit-documentation">
-<h1>Coinpit documentation<a class="headerlink" href="#coinpit-documentation" title="Permalink to this headline">¶</a></h1>
-<blockquote>
-<div><a class="reference external" href="https://coinpit.io/api">Coinpit API documentation</a></div></blockquote>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="specs.html">Contract Specification</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="specs.html#all">ALL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="specs.html#btcusd">BTCUSD</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
-</ul>
+  <div class="section" id="definitions">
+<h1>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>side</td>
+<td>&#8216;buy&#8217; for long, &#8216;sell&#8217; for short</td>
+</tr>
+<tr class="row-even"><td>orderType</td>
+<td><div class="first last line-block">
+<div class="line">Supported order type</div>
+<div class="line">LMT: Limit order</div>
+<div class="line">MKT: Market order</div>
+<div class="line">SLM: Stop limit</div>
+<div class="line">STM: Stop Market</div>
 </div>
+</td>
+</tr>
+<tr class="row-odd"><td>quantity</td>
+<td>Number of contracts to transact</td>
+</tr>
+<tr class="row-even"><td>instrument</td>
+<td>The symbol of the contract to be traded</td>
+</tr>
+<tr class="row-odd"><td>price</td>
+<td>Order price for orders other than MKT</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -180,8 +198,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="specs.html" class="btn btn-neutral float-right" title="Contract Specification" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
+        <a href="specs.html" class="btn btn-neutral" title="Contract Specification" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
