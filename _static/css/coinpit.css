@@ -5,11 +5,15 @@ table.docutils div.line-block {
 }
 
 .fa-home:before, .icon-home:before {
-    content: url("../favicon-16x16.png");
+    content: url("../favicon-70x70.png");
 }
 .wy-side-nav-search {
     background-color: #404040;
 }
 .wy-side-scroll {
     background-color: #404040;
+}
+
+.wy-side-nav-search >a {
+  font-size: 27px;
 }
