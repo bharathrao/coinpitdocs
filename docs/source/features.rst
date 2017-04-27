@@ -29,6 +29,7 @@ User-Experience
 ---------------
 
 ===============================  =====================================
+Chart Trading                    Place orders with Alt+Click or Control+Click, Click to pick up an order and click again to drop. Click the X to cancel.
 Atomic Stops                     Ensures trader will exit with pre-determined max risk
 Precise Risk Measurement         Stops are mandatory and atomic allowing very high leverage
 Anti-Manipulation Bands          Orders are not executed and stops are not triggered except within a band around index price
