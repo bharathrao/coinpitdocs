@@ -28,7 +28,5 @@ BTCUSD
     "Value of 1 contract", "100 USD"
     "P&L of 1 contract", "100 × (1/BuyPrice - 1/SellPrice) BTC"
     "Max Initial Leverage", "100x"
-    "Spot Anchor Price", "| Spot anchor price is median of
-    | OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD
-    | real-time spot price"
+    "Spot Anchor Price", "Spot anchor price is median of OKCoin, BitFinex, Gemini, GDAX and Bitstamp BTC/USD real-time spot price"
     "Trading Bands", "Trading enabled within ±1% of spot anchor price"
