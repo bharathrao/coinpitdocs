@@ -17,3 +17,7 @@ table.docutils div.line-block {
 .wy-side-nav-search >a {
   font-size: 27px;
 }
+
+.wy-table-responsive table td {
+  white-space: normal;
+}
