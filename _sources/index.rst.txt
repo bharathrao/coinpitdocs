@@ -5,6 +5,8 @@
 
 Coinpit documentation
 =====================
+   :download:`Coinpit Whitepaper <whitepaper.pdf>`.
+   
    `Coinpit API documentation`_
 
 .. _Coinpit API documentation: https://coinpit.io/api
