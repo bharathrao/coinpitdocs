@@ -14,6 +14,7 @@ Coinpit documentation
 .. toctree::
    :maxdepth: 2
 
+   cpindex.rst
    specs.rst
    definitions.rst
    features.rst
