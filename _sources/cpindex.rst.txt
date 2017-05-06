@@ -35,6 +35,8 @@ Current Exchanges
 - `GDAX <https://www.GDAX.com>`_
 - `Gemini <https://www.Gemini.com>`_
 - `OKCoin <https://www.OKCoin.com>`_
+- `ItBit <https://www.itbit.com>`_
+- `Kraken <https://www.kraken.com>`_
 
 .. _open-source index: https://github.com/coinpit/coinpit-index
 .. _VWAP: http://www.investopedia.com/terms/v/vwap.asp
