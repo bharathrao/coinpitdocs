@@ -6,6 +6,8 @@
 Coinpit documentation
 =====================
    :download:`Coinpit Whitepaper <whitepaper.pdf>`.
+   
+   :doc:`/ua`
 
    `Coinpit API documentation`_
 
